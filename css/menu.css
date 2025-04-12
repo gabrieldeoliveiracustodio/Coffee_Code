@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E6CCB2;
+    font-family: serif;
+
+}
+header{
+    background: #B08968;
+    border-radius: 0 0 27px 27px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img{
+height: 120px;
+
+}
+section{
+    width: 25%;
+    background-color: #fff;
+    margin: 100px auto;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+    height: 70vh;
+    margin-top: 250px;
+}
+    
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section h1{
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+section p{
+    
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+footer{
+    border-radius: 27px 27px 0 0;
+    height: 90px;
+    width: 100%;
+    background: #000000;
+    margin-top: 280px;
+
+}
+footer p{
+    text-align: center;
+    line-height: 90px;
+    background-color:transparent;
+    font-family: serif;
+    font-size: 2.5em;
+    color: #fff;
+}
+section img{
+    margin: 50px 0;
+    height: 300px;
+    margin-top: 150px;
+}
+.imagem-whatsapp{
+    margin: 300px 0;
+    margin-right: 400px;
+    height: 15%;
+    margin-top: 150px;
+}
+.imagem-insta{
+    height: 13%;
+    margin-top: -550px;
+    margin-left: 400px;
+}
+.botao{
+    padding: 12px 25px;
+    cursor: pointer;
+    height: 10%;
+    border: none;
+    font-size: 3.5em;
+    width: 15vh;
+    margin-top: 150px;
+    background:#FFF;
+    color: #a68a64;
+}
